@@ -55,6 +55,27 @@ h1{
     text-align: center;
     color: #fff;
     font-size:20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#titulo2{
+
+    text-shadow: -4px 3px 0 red, -14px 7px 0 #0a0e27;
+    font-size: 70px;
+
+}
+#misiones{
+
+    margin-top:5%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 10%;
+
+    text-align: center;
+    color: white;
+    text-shadow: -4px 3px 0 red, -14px 7px 0 #0a0e27;
+
 
 }
 
@@ -63,6 +84,7 @@ h1{
     margin-left: 10%;
     display: grid;
     grid-template-columns: 30% 30% 30%;
+
 
 
 }
