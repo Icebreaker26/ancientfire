@@ -1,0 +1,61 @@
+h1{
+
+
+    text-align: center;
+    color: #fff;
+}
+
+#titulo{
+
+    margin-top:100px;
+    font-size:100px;
+
+}
+
+#tarjeta{
+
+
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 50% 45%;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    color: #fff;
+}
+
+#sinopsis{
+
+    text-align: center;
+    color: #fff;
+    font-size:20px;
+
+}
+
+#team{
+
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+
+}
+
+#alejandro{
+
+    width: 100%;
+
+}
+
+body{
+
+    background-image: url(static/fondo2.png);
+    background-size: cover;
+}
