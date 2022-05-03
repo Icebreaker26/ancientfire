@@ -1,14 +1,27 @@
 h1{
 
-
     text-align: center;
-    color: #fff;
+    
+    color: white;
 }
+
+@font-face {
+    font-family: 'olde';
+    src: url('static/OldeEnglish.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
 
 #titulo{
 
-    margin-top:100px;
-    font-size:100px;
+    
+    font-size:150px;
+
+    font-family:olde;
+    font-weight: normal;
+
+    text-shadow: -4px 3px 0 red, -14px 7px 0 #0a0e27;
+
 
 }
 
@@ -29,6 +42,12 @@ h1{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
     color: #fff;
+}
+
+#tarjetastats{
+
+    width: 100%;
+
 }
 
 #sinopsis{
