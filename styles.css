@@ -1,3 +1,9 @@
+body{
+
+    background-image: url(static/fondo2.png);
+    background-size: cover;
+}
+
 h1{
 
     text-align: center;
@@ -25,6 +31,8 @@ h1{
 
 }
 
+@media(min-width:768px){
+
 #tarjeta{
 
 
@@ -42,28 +50,6 @@ h1{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
     color: #fff;
-}
-
-#tarjetastats{
-
-    width: 100%;
-
-}
-
-#sinopsis{
-
-    text-align: center;
-    color: #fff;
-    font-size:20px;
-    font-family: 'Roboto Mono', monospace;
-
-}
-
-#titulo2{
-
-    text-shadow: -4px 3px 0 red, -14px 7px 0 #0a0e27;
-    font-size: 70px;
-
 }
 #misiones{
 
@@ -88,6 +74,76 @@ h1{
 
 
 }
+}
+
+@media(max-width:768px){
+
+    #tarjeta{
+
+
+        width: 80%;
+        margin: 0 auto;
+    
+        
+    
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+        color: #fff;
+    }
+    #misiones{
+    
+        margin-top:5%;
+        
+        margin-left: 10%;
+    
+        text-align: center;
+        color: white;
+        text-shadow: -4px 3px 0 red, -14px 7px 0 #0a0e27;
+    
+    
+    }
+    
+    #team{
+    
+        margin-left: 10%;
+        
+    
+    
+    
+    }
+    
+
+}
+
+
+
+#tarjetastats{
+
+    width: 100%;
+
+}
+
+#sinopsis{
+
+    text-align: center;
+    color: #fff;
+    font-size:20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#titulo2{
+
+    text-shadow: -4px 3px 0 red, -14px 7px 0 #0a0e27;
+    font-size: 70px;
+
+}
+
 
 #alejandro{
 
@@ -95,8 +151,3 @@ h1{
 
 }
 
-body{
-
-    background-image: url(static/fondo2.png);
-    background-size: cover;
-}
