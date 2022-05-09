@@ -154,6 +154,8 @@ h1{
 #alejandro{
 
     width: 100%;
+    display:block;
+    margin:auto;
 
 }
 
@@ -161,6 +163,14 @@ h1{
 
     color:white;
     text-align:center;
+
+}
+
+#gameplay{
+
+    display:block;
+    margin:auto;
+     width: 60%; 
 
 }
 
